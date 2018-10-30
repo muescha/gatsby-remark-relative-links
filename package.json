@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-relative-links",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rewrites absolute URLs to relative ones.",
   "main": "index.js",
   "author": "Zach Schnackel <info@zslabs.com>",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "babel-runtime": "6.26.0",
-    "remark-relative-links": "0.0.3"
+    "remark-relative-links": "0.0.5"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
