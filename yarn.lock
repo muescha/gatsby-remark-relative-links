@@ -1394,13 +1394,13 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
 
-remark-relative-links@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/remark-relative-links/-/remark-relative-links-0.0.5.tgz#0707d5a428739389233994bc4bf6171815075024"
-  integrity sha512-MkyuA35uJZl6zhLTKLUYurHVBBPhoTEaASmQ+Cb3m8OlmcxEgAOI9BRsG4nMql5zTrS4scHD8/NI+WWQKi8+6g==
+remark-relative-links@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/remark-relative-links/-/remark-relative-links-0.0.6.tgz#c9b3f002a5618a6338a5b003ce0b262bf597dd9d"
+  integrity sha512-SSf6ES22i2d2WvU3/ylofH84fKmDrbjRWIp/hf01s097BsQGWtRf3atop6Ng/8K6L6BqR9FbsKBZa0OIj8tyKA==
   dependencies:
     babel-runtime "6.26.0"
-    unist-util-visit "1.1.3"
+    unist-util-visit "1.4.0"
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
@@ -1694,10 +1694,24 @@ union-value@^1.0.0:
     is-extendable "^0.1.1"
     set-value "^0.4.3"
 
-unist-util-visit@1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.1.3.tgz#ec268e731b9d277a79a5b5aa0643990e405d600b"
-  integrity sha1-7CaOcxudJ3p5pbWqBkOZDkBdYAs=
+unist-util-is@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-2.1.2.tgz#1193fa8f2bfbbb82150633f3a8d2eb9a1c1d55db"
+  integrity sha512-YkXBK/H9raAmG7KXck+UUpnKiNmUdB+aBGrknfQ4EreE1banuzrKABx3jP6Z5Z3fMSPMQQmeXBlKpCbMwBkxVw==
+
+unist-util-visit-parents@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-2.0.1.tgz#63fffc8929027bee04bfef7d2cce474f71cb6217"
+  integrity sha512-6B0UTiMfdWql4cQ03gDTCSns+64Zkfo2OCbK31Ov0uMizEz+CJeAp0cgZVb5Fhmcd7Bct2iRNywejT0orpbqUA==
+  dependencies:
+    unist-util-is "^2.1.2"
+
+unist-util-visit@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.4.0.tgz#1cb763647186dc26f5e1df5db6bd1e48b3cc2fb1"
+  integrity sha512-FiGu34ziNsZA3ZUteZxSFaczIjGmksfSgdKqBfOejrrfzyUy5b7YrlzT1Bcvi+djkYDituJDy2XB7tGTeBieKw==
+  dependencies:
+    unist-util-visit-parents "^2.0.0"
 
 unset-value@^1.0.0:
   version "1.0.0"
