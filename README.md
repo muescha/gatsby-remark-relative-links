@@ -28,7 +28,7 @@ Add following to your `gatsby-config.js`:
           {
             resolve: "gatsby-remark-relative-links",
             options: {
-              domainRegex: /http[s]*:\/\/[www.]*yoursite\.com[/]?/,
+              domainRegex: /http[s]*:\/\/(www\.)*yoursite\.com[/]?/,
             }
           },
           'gatsby-remark-external-links',
